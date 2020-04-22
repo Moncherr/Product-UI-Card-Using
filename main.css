@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+:root {
+  --bg-color: #99a7a0;
+}
+body{
+  background: var(--bg-color);
+}
+.card{
+  width: 360px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); /*nedir hacı abi bu */
+}
+#image-container{
+  margin-top: 25px;
+  margin-bottom: 18px;
+  width: 270px;
+  height: 200px;
+  
+}
+.top-section{
+  height: 310px;
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.nav img{
+ width: 80px;
+ height: 50px;
+ border: 1px solid #dddddd;
+ margin: 8px 2px;
+ transition: 0.3s;  /*nedir hacı abi bu */
+}
+
+.nav img:hover{
+  border-color: var(--bg-color); 
+}
+
+.price{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: var(--bg-color);
+  font-size: 18px;
+}
+.product-info{
+  padding: 25px;
+}
+.name{
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #333333;
+}
+.dis{
+  font-size: 16px;
+  opacity: 0.6;
+}
+.btn{
+  display: block;
+  background-color: var(--bg-color);
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.btn:hover{
+  background-color: #1a1515;
+}
